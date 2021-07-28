@@ -1,0 +1,101 @@
+@font-face {
+    font-family: SpaceMission ;
+    src: url("./font/SpaceMission-rgyw9.otf");
+}
+
+*{
+    font-family: SpaceMission;
+}
+
+.content{
+    text-align: center;
+    
+}
+
+.tictactoe_logo{
+    width: 500px;
+    height:500px;
+    padding: 10px;
+}
+
+
+
+.playbutton{
+    position: absolute;
+    left: 520px;
+    top: 165px;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.playbutton h2{
+    font-size: 150px;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: yellow;
+    
+}
+
+
+.playbutton h2:hover{
+    color:yellow;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+/* game style */
+
+
+.game_background{
+    position: fixed;
+   margin: auto;
+   margin-left: 450px;
+   margin-top: 50px;
+    
+}
+
+.border_bottom{
+    border-bottom: 8px solid #243942;
+}
+
+.border_right{
+    border-right: 8px solid #243942;
+}
+
+.game_table{
+    width: 125px;
+    height: 125px;
+    background-size: contain;
+}
+
+
+.players{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    float:bottom;
+}
+
+.player1, .player2{
+    text-align: center;
+    
+}
+
+.player1 img, .player2 img{
+    width: 200px;
+    height: 200px;
+
+}
+
+.player1{
+    padding-left: 30px ;
+}
+
+.player2{
+    margin-left:880px;
+}
+/* tipografia */
+h1{
+    font-size:80px;
+}
